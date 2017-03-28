@@ -1,0 +1,111 @@
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: #404041;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+h1.header {
+    font-size: 50pt;
+    font-weight: 300;
+    color: #E6E7E8;
+    margin-top: 0px;
+}
+
+h1 .num {
+    color: #ED458B;
+    font-weight: 700;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    color: #E6E7E8;
+    text-align: center;
+    font-size: 24pt;
+    border-width: 2px;
+    border-color: #E6E7E8;
+    border-style: solid;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.guess {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+input [type=number] {
+    border: 20px;
+    border-color: #d0d2d3;
+}
+
+button {
+    background-color: #D0D2D3;
+    border-width: 0px;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    padding: 5px 76px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 300;
+    width: 230px;
+}
+
+button:hover {
+    background-color: #EB008B;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.submit {
+    margin-right: 40px;
+}
+
+.guessdisplay {
+    color: #ED458B;
+    font-size: 128pt;
+    margin: 10px;
+}
+
+div .guessdisplay {
+    height: 232px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+p.lastguess {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 24pt;
+    font-weight: 300;
+    color: #404041;
+}
+
+p.hint {
+    font-size: 24pt;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.reset {
+    width: 500px;
+}
